@@ -1,0 +1,163 @@
+body {
+    font-family: "Poppins";
+    color: white;
+    overflow-x: hidden;
+    background-color: #0c0f1a;
+}
+
+/* Hero Section */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgb(1, 2, 17)), url("/assets/image/background.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+}
+.hero-container .text-hero {
+    text-align: center;
+    margin: 30px;
+}
+.hero-container .text-hero h1 {
+    font-size: clamp(3rem, 2vw, 3.5rem);
+}
+.hero-container .text-hero p {
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    max-width: 550px;
+}
+.hero-container .box-wrapper {
+    background-color: #181A2F;
+    margin-bottom: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.input-box input, .input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+.column {
+    display: flex;
+    gap: 15px;
+}
+.input-box textarea {
+    resize: none;
+    height: 120px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #252742;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*========= CONTACT SECTION =========*/
+.contact-container {
+    position: relative;
+    display: flex;
+    background: #252742;
+    justify-content: center;
+    padding: 80px;
+    align-items: stretch;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-container .card-phone, .contact-container .card-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex: 1;
+    min-width: 320px;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 40px;
+    box-sizing: border-box;
+    min-height: 200px;
+}
+
+.contact-container .card-phone {
+    background-color: #181A2F;
+}
+.contact-container .card-phone a{
+    color: #ffffff;
+}
+.contact-container .card-phone:hover{
+    background-color: #ffffff;
+}
+.contact-container .card-phone:hover a {
+    cursor: pointer;
+    color: #252742;
+}
+.contact-container .card-phone:hover img {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(18%) saturate(4350%) hue-rotate(207deg) brightness(94%) contrast(90%);
+}
+
+.contact-container .card-email {
+    background-color: #ffffff;
+}
+.contact-container .card-email a{
+    color: #252742;
+}
+.contact-container .card-email:hover{
+    background-color: #181A2F;
+}
+.contact-container .card-email:hover a {
+    cursor: pointer;
+    color: #ffffff;
+}
+.contact-container .card-email:hover img {
+    filter: invert(1);
+}
+
+/* text */
+.contact-container .card-phone .text-phone,
+.contact-container .card-email .text-email {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 100%;  
+    overflow-wrap: break-word;
+    word-break: break-word; 
+    white-space: normal; 
+    text-overflow: ellipsis; /* Tambahkan "..." jika teks terpotong */
+}
+.contact-container .card-phone h1,
+.contact-container .card-email h1 {
+    font-size: clamp(1.8rem, 2vw, 2.5rem);
+}
+.contact-container .card-phone p,
+.contact-container .card-email p {
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    max-width: 450px;
+}
+.contact-container .card-maps{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+} 
+.contact-container .card-maps:hover{
+    cursor: pointer;
+} 
