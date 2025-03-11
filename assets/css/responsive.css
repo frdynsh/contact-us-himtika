@@ -5,12 +5,29 @@
     .hero-container .box-wrapper {
         max-width: 320px;
     }
+    .column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .column .email{
+        width: 100%;
+    }
+    .column .phone{
+        width: 100%;
+    }
+
+    /* contact section */
     .contact-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 40px 0px;
         gap: 30px;
+    }
+    .input-box textarea {
+        resize: none;
+        height: 120px;
     }
     .contact-container .card-phone, .contact-container .card-email {
         padding: 15px;

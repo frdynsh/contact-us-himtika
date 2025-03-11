@@ -33,7 +33,7 @@ body {
     padding: 40px;
     border-radius: 20px;
     max-width: 900px;
-    width: 100%;
+    width: 120%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 .input-box input, .input-box textarea {
@@ -47,7 +47,15 @@ body {
 }
 .column {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 15px;
+}
+.column .email{
+    width: 400px;
+}
+.column .phone{
+    width: 400px;
 }
 .input-box textarea {
     resize: none;
