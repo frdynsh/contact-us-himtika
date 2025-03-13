@@ -29,7 +29,7 @@
         resize: none;
         height: 120px;
     }
-    .contact-container .card-phone, .contact-container .card-email {
+    .contact-container .card-phone, .contact-container .card-email, .contact-container .card-maps {
         padding: 15px;
         min-height: auto;
         margin: 0px 30px;
@@ -50,6 +50,6 @@
     }
     .contact-container .card-maps{
         width: 100%;
-        padding: 0px 30px;
+        padding: 20px 30px;
     }    
 }
