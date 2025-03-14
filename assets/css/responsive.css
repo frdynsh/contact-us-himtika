@@ -37,7 +37,7 @@
     }
     .contact-container .card-phone h1,
     .contact-container .card-email h1 {
-        font-size: clamp(1.15rem, 3vw, 1.6rem);
+        font-size: clamp(1.1rem, 3vw, 1.4rem);
     }
     .contact-container .card-phone p,
     .contact-container .card-email p {
