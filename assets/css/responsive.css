@@ -73,17 +73,6 @@
 }
 
 @media (max-width: 768px) {
-    .live-news span{
-		display: none;
-		position: relative
-	}
-
-	.live-news .rectangle .rectangle-img,
-	.live-news .rectangle .sinergis,
-	.live-news .rectangle .rectangle-shadow{
-		display: none;
-	}
-
     /* =============== section Hero ================ */
     .hero-container {
         margin-top: 10%;
@@ -163,10 +152,6 @@
 		display:block !important;
 		visibility:hidden;
 		opacity:0;
-	}
-	
-	.header-top .live-news{
-		position: auto;	
 	}
 }
 
