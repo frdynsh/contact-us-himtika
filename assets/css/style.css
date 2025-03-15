@@ -137,7 +137,7 @@ ul,li{
 /* Main Header */
 
 .main-header{
-	position: sticky;
+	position: fixed;
 	display: block;
 	width: 100%;
 	z-index: 99999;
@@ -842,6 +842,7 @@ ul,li{
     background-position: center;
     background-repeat: no-repeat; 
     z-index: 0; 
+	margin-top: 3%;
 }
 .hero-container::before {
     content: "";
