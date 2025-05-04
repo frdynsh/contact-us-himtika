@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
 @import url('animated.css');
 @import url('scrollbar.css');
 
 body {
     font-family: "Poppins";
     color: white;
-    
     background-color: #0c0f1a;
 }
 
@@ -12,6 +12,10 @@ ul,li{
 	list-style:none;
 }
 
+::-webkit-scrollbar {
+	display: none;
+  }
+  
 .auto-container{
 	position:static;
 	max-width:1200px;
